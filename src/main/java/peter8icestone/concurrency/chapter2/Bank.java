@@ -2,6 +2,8 @@ package peter8icestone.concurrency.chapter2;
 
 public class Bank {
 
+    private static final int MAX = 50;
+
     public static void main(String[] args) {
         TicketWindowRunnable ticketWindowRunnable = new TicketWindowRunnable();
         Thread t1 = new Thread(ticketWindowRunnable, "1");
