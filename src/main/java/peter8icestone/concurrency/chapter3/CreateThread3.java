@@ -10,7 +10,7 @@ public class CreateThread3 {
             add(0);
         } catch (Error e) {
             System.out.println(counter);
-            e.printStackTrace();
+//            e.printStackTrace();
         }
     }
 
